@@ -23,6 +23,7 @@ $ yarn dev
 - If prompt does not allow for opening, cancel out
 - Right click on application again and select "Open"
 - Repeat, if necessary, until the prompt provides an "Open" option
+- Finally, "Open" the app on your machine
 
 
 ## Built Using
