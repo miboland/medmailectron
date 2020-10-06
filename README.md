@@ -18,6 +18,7 @@ $ yarn dev
 - Right click on application and select "Open"
 - At prompt, confirm with "Open"
 
+## Troubleshooting
 
 - If prompt does not allow for opening, cancel out of prompt
 - Right click on application again and select "Open"
