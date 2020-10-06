@@ -1,41 +1,34 @@
-<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
+## Medmailectron
+[Medmail](https://github.com/miboland/medmail) for the desktop.
 
-## Usage
+## Running Locally
 
-### Create an App
-
-```zsh
-# with `nextron`
-$ nextron init my-app --example with-javascript
-
-# with npx
-$ npx create-nextron-app my-app --example with-javascript
-
-# with yarn
-$ yarn create nextron-app my-app --example with-javascript
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-javascript
+```bash
+$ git clone https://github.com/miboland/medmailectron.git
+$ cd medmailectron
+$ yarn
+$ yarn dev
 ```
 
-### Install Dependencies
+## MacOS Download Instructions
 
-```zsh
-$ cd my-app
+- [Download this .dmg file](https://drive.google.com/uc?export=download&id=1fQ0PCb4IxPwfPE818GOSJ3FvCoBGFV_Y)
+- Open the .dmg file
+- (Optional) Move application to Applications directory
+- Right click on application and select "Open"
+- At prompt, confirm with "Open"
 
-# using yarn or npm
-$ yarn (or `npm install`)
 
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
+- If prompt does not allow for opening, cancel out of prompt
+- Right click on application again and select "Open"
+- Repeat, if necessary, until the prompt provides an "Open" option
 
-### Use it
 
-```zsh
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+## Built Using
 
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+- [Chakra UI](https://chakra-ui.com/)
+- [Emotion](https://emotion.sh/)
+- [Next.js](https://nextjs.org/)
+- [Nextron](https://github.com/saltyshiomix/nextron)
+- [React Smooth Drag & Drop](https://github.com/kutlugsahin/react-smooth-dnd)
+- [Easy Peasy](https://easy-peasy.now.sh/)
