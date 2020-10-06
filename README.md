@@ -16,11 +16,11 @@ $ yarn dev
 - Open the .dmg file
 - (Optional) Move application to Applications directory
 - Right click on application and select "Open"
-- At prompt, confirm with "Open"
+- If prompted, confirm with "Open"
 
 ## Troubleshooting
 
-- If prompt does not allow for opening, cancel out of prompt
+- If prompted and prompt does not allow for opening, cancel out of prompt
 - Right click on application again and select "Open"
 - Repeat, if necessary, until the prompt provides an "Open" option
 
