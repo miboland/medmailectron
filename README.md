@@ -20,7 +20,7 @@ $ yarn dev
 
 ## Troubleshooting
 
-- If prompted and prompt does not allow for opening, cancel out of prompt
+- If prompt does not allow for opening, cancel out
 - Right click on application again and select "Open"
 - Repeat, if necessary, until the prompt provides an "Open" option
 
