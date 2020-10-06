@@ -1,0 +1,49 @@
+{
+  "name": "medmailectron",
+  "description": "Medmail in Electron/desktop form.",
+  "version": "1.0.0",
+  "author": "Michael Boland <michael@boland.onl>",
+  "main": "app/background.js",
+  "repository": "https://github.com/electron/electron-quick-start",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron-serve": "^1.0.0",
+    "electron-store": "^6.0.0",
+    "electron-is-dev": "^1.2.0",
+    "electron-next": "^3.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "@chakra-ui/core": "0.8.0",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
+    "easy-peasy": "^3.3.1",
+    "emotion-theming": "10.0.27",
+    "find-in-files": "^0.5.0",
+    "next-google-fonts": "1.1.0",
+    "next-seo": "4.5.0",
+    "patch-package": "6.2.2",
+    "postinstall-postinstall": "2.1.0",
+    "raw-loader": "^4.0.1",
+    "react-smooth-dnd": "^0.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.1.0",
+    "electron": "^10.1.1",
+    "electron-builder": "^22.8.0",
+    "next": "9.3.5",
+    "nextron": "^5.15.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.2",
+    "eslint": "6.8.0",
+    "eslint-config-get-off-my-lawn": "5.0.1",
+    "husky": "4.2.3",
+    "lint-staged": "10.1.2",
+    "prettier": "2.0.5"
+  }
+}

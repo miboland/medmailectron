@@ -1,0 +1,1 @@
+export default "Canine teeth cartilage decongestants depressant depression enamel grieving gums inhaler involuntary muscle joints nebulizer ophthalmologist peak flow meter pulse red blood cells stapes tonsillectomy.";
