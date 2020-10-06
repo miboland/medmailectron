@@ -1,5 +1,5 @@
 ## Medmailectron
-[Medmail](https://github.com/miboland/medmail) for the desktop.
+[Medmail](https://github.com/miboland/medmail) for the MacOS desktop.
 
 ## Running Locally
 
