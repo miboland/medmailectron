@@ -21,10 +21,10 @@ $ yarn build
 
 ## Troubleshooting
 
-- If prompt does not allow for opening, cancel out
-- Right click on application again and select "Open"
-- Repeat, if necessary, until the prompt provides an "Open" option
-- Finally, "Open" the app on your machine
+- Defaults to a MacOS build
+- Find the appropriate build command in the package.json
+- Find the dist/output location locally on your machine
+- Open/run the app on your machine
 
 
 ## Built Using
