@@ -1,41 +1,37 @@
-<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
+## Medmailectron
+[Medmail](https://github.com/miboland/medmail) for the desktop.
 
-## Usage
+## Running Locally
 
-### Create an App
-
-```zsh
-# with `nextron`
-$ nextron init my-app --example with-javascript
-
-# with npx
-$ npx create-nextron-app my-app --example with-javascript
-
-# with yarn
-$ yarn create nextron-app my-app --example with-javascript
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-javascript
+```bash
+$ git clone https://github.com/miboland/medmailectron.git
+$ cd medmailectron
+$ yarn
+$ yarn dev
 ```
 
-### Install Dependencies
+## Build Instructions
 
-```zsh
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
+```bash
+$ git clone https://github.com/miboland/medmailectron.git
+$ cd medmailectron
+$ yarn
+$ yarn build
 ```
 
-### Use it
+1. Find the dist/output location locally on your machine
+2. Open/run the app on your machine
 
-```zsh
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+## Quick Notes
 
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+- Defaults to a MacOS build
+- Find the appropriate build command in the package.json
+
+## Built Using
+
+- [Chakra UI](https://chakra-ui.com/)
+- [Emotion](https://emotion.sh/)
+- [Next.js](https://nextjs.org/)
+- [Nextron](https://github.com/saltyshiomix/nextron)
+- [React Smooth Drag & Drop](https://github.com/kutlugsahin/react-smooth-dnd)
+- [Easy Peasy](https://easy-peasy.now.sh/)
