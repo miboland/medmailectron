@@ -10,13 +10,14 @@ $ yarn
 $ yarn dev
 ```
 
-## MacOS Download Instructions
+## Build Instructions
 
-- [Download this .dmg file](https://drive.google.com/uc?export=download&id=1fQ0PCb4IxPwfPE818GOSJ3FvCoBGFV_Y)
-- Open the .dmg file
-- (Optional) Move application to Applications directory
-- Right click on application and select "Open"
-- If prompted, confirm with "Open"
+```bash
+$ git clone https://github.com/miboland/medmailectron.git
+$ cd medmailectron
+$ yarn
+$ yarn build
+```
 
 ## Troubleshooting
 
