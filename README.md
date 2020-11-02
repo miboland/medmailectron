@@ -19,14 +19,13 @@ $ yarn
 $ yarn build
 ```
 
+1. Find the dist/output location locally on your machine
+2. Open/run the app on your machine
+
 ## Quick Notes
 
 - Defaults to a MacOS build
 - Find the appropriate build command in the package.json
-
-1. Find the dist/output location locally on your machine
-2. Open/run the app on your machine
-
 
 ## Built Using
 
